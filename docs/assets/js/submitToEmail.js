@@ -1,4 +1,6 @@
-const url = 'https://script.google.com/macros/s/AKfycbyq9NjhO9Ns8GJr4B09JZanL3nuNV2lSrhTlvJ44lVMWteXEGxYSDMOjZaZpKkG5-qe/exec';
+console.log("Hello World");
+
+/*const url = 'https://script.google.com/macros/s/AKfycbyq9NjhO9Ns8GJr4B09JZanL3nuNV2lSrhTlvJ44lVMWteXEGxYSDMOjZaZpKkG5-qe/exec';
 const myForm = document.querySelector('#myForm');
 const myName = document.querySelector("#name");
 const myEmail = document.querySelector("#email");
@@ -68,6 +70,8 @@ function addSendMail(data)
             console.log(json);
         })
 }//fn
+
+*/
 
 function addSendMailGET(data)
 {
