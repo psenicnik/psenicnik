@@ -1,2 +1,4 @@
-var nameValue = document.getElementById("name").value;
-console.log(nameValue);
+document.querySelector('form').addEventListener('submit', (e) => {
+  const data = Object.fromEntries(new FormData(e.target).entries());
+  console.log(data)
+});
