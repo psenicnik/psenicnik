@@ -20,7 +20,6 @@ function submitter(e)
             message:myMessage.value
         };
         addSendMail(myObj);
-        resetForm(myObj);
 
 }//fn
 
@@ -52,8 +51,5 @@ function addSendMailGET(data)
 }//fn
 
 
-function resetForm(e)
-{
-    e.reset();
-}
+
 
