@@ -7,8 +7,6 @@ const myMessage = document.querySelector("#message");
 
 myForm.addEventListener('submit', submitter);
 
-myForm.reset();
-
 
 function submitter(e)
 {
@@ -22,6 +20,7 @@ function submitter(e)
             message:myMessage.value
         };
         addSendMail(myObj);
+        resetForm(myObj);
 
 }//fn
 
@@ -51,3 +50,10 @@ function addSendMailGET(data)
             console.log(json);
         })
 }//fn
+
+
+function resetForm(e)
+{
+    e.reset();
+}
+
