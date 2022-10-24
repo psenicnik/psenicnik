@@ -7,6 +7,8 @@ const myMessage = document.querySelector("#message");
 
 myForm.addEventListener('submit', submitter);
 
+myForm.reset();
+
 
 function submitter(e)
 {
